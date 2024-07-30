@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="film.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="film.js"></script>
+    <title>Film</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li onclick="Link1()">Heading</li>
+            <li onclick="Link2()">Paragraf</li>
+            <li onclick="Link3()">Format Teks</li>
+            <li onclick="Link4()">Hyperlink</li>
+            <li onclick="Link5()">List</li>
+            <li onclick="Link6()">Style</li>
+            <li onclick="Link7()">Image</li>
+            <li class="active" onclick="Link8()">Tabel</li>
+            <li onclick="Link9()">Video</li>
+        </ul>
+    </header>
+    <p class="indent">Hiasan Aja</p>
+    <h1>Tabel : Penyajian Data Kompleks</h1>
+    <p class="show" onclick="Mybtn()" ondblclick="Mydblbtn()">Klik Untuk Informasi, 2x Klik Untuk Hide</p>
+    <div id="hdn">
+        <h1>Table, Elemen Untuk Membuat Tabel</h1>
+        <p>Tabel digunakan untuk menampilkan informasi dalam bentuk baris dan kolom.</p>
+        <p onclick="Mybutton()">Klik Untuk Melihat Contohnya : </p>
+        <div id="hidden">
+            <h1>Introduksi Column dan Row</h1>
+            <p>Kolom</p>
+            <table border="1" cellpadding="7" class="line">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </table>
+            <p>Baris</p>
+            <table border="1" cellpadding="7" class="line">
+                <tr>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+            <h1>Introduksi col-span dan row-span</h1>
+            <table border="1" cellpadding="7" class="line">
+                <tr>
+                    <td>c1 r1</td>
+                    <td colspan="2">Colspan 2</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Rowspan 2</td>
+                    <td>c2 r2</td>
+                    <td>c3 r2</td>
+                </tr>
+                <tr>
+                    <td>c2 r3</td>
+                    <td>c3 r3</td>
+                </tr>
+            </table>
+            <h1>Penerapan Tabel</h1>
+            <table border="1" cellpadding="7" class="line">
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th colspan="2">Film Favorit</th>
+                </tr>
+                <tr>
+                    <th>Nama Film</th>
+                    <th>Nonton Lewat</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Doraemon</td>
+                    <td>TV</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Battleship</td>
+                    <td>Online</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024 by Radit. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

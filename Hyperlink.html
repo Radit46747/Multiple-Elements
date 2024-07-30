@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="film.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="film.js"></script>
+    <title>Film</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li onclick="Link1()">Heading</li>
+            <li onclick="Link2()">Paragraf</li>
+            <li onclick="Link3()">Format Teks</li>
+            <li class="active" onclick="Link4()">Hyperlink</li>
+            <li onclick="Link5()">List</li>
+            <li onclick="Link6()">Style</li>
+            <li onclick="Link7()">Image</li>
+            <li onclick="Link8()">Tabel</li>
+            <li onclick="Link9()">Video</li>
+        </ul>
+    </header>
+    <p class="indent">Hiasan Aja</p>
+    <h1>Link / Hyperlink : Penghubung Alamat Web Statis/Dinamis</h1>
+    <p class="show" onclick="Mybtn()" ondblclick="Mydblbtn()">Klik Untuk Informasi, 2x Klik Untuk Hide</p>
+    <div id="hdn">
+        <h1>Link / Hyperlink : Elemen Untuk Menghubungkan Halaman Web</h1>
+        <p>Link / Hyperlink adalah elemen HTML yang berfungsi menghubungkan suatu halaman web ke halaman web yang lain. Elemen ini bisa diklik dan nanti akan membuka halaman lain sesuai alamat URL yang diberikan. link juga punya fungsi lain seperti scroll top, download file, menjalankan fungsi javascript, dll.</p>
+        <p onclick="Mybutton()">Klik Untuk Melihat Contohnya : </p>
+        <div id="hidden">
+            <h1>Jenis-Jenis Link</h1>
+            <p><a href="Link.html">Link Statis / Internal</a></p>
+            <p><a href="https://www.petanikode.com/html-link/">Link Dinamis / External</a></p>
+            <p class="no-deco">Selain untuk berpindah halaman, link juga digunakan untuk <a href="#" title="Detail Link">tooltip</a> dan anchor dari sebuah link.</p>
+            <p>JavaScript juga dapat dijalankan dengan link, namun cukup jarang dipakai.</p>
+            <h1>Gambar Sebagai Link</h1>
+            <a href="Image.html"><img src="film.jpg" width="320px" height="180px"/></a>
+            <h1>Link Sebagai Anchor</h1>
+            <p><a href="#top">Kembali Ke Atas</a></p>
+            <h1>Penerapan Link</h1>
+            <a href="https://www.bilibili.tv/id/video/2018832103" title="Battleship">Film Favorit 1</a> <br>
+            <a href="https://id.m.wikipedia.org/wiki/Daftar_film_Doraemon" title="Daftar Film Doraemon">Film Favorit 2</a>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024 by Radit. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

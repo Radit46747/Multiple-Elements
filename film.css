@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+header {
+    font-family: 'Bell MT', 'Segoe UI', 'Times New Roman';
+}
+
+p.show {
+    background-color: #008800;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+}
+
+p.no-deco , p.no-deco a , a.no-deco {
+    text-decoration: none;
+    color: black;
+}
+
+p.fake-link {
+    text-decoration: underline;
+    color: blue;
+}
+
+p.indent ~ h1 {
+    padding-left: 10px;
+}
+
+table.line{
+    background-color: #333333;
+    text-align: center;
+    border: 3px solid #888888;
+    color: white;
+}
+
+div.show {
+    background-color: #008800;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+    padding: 10px;
+}
+
+div.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hdn {
+    display: none;
+    background-color: #338833;
+    border: 2px solid #00FF00;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+#hidden {
+    display: none;
+    background-color: #338833;
+    border: 2px solid #00FF00;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  header li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  header .active {
+    background-color: #04AA6D;
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

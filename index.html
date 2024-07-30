@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="film.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="film.js"></script>
+    <title>Welcome</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li onclick="Link1()">Heading</li>
+            <li onclick="Link2()">Paragraf</li>
+            <li onclick="Link3()">Format Teks</li>
+            <li onclick="Link4()">Hyperlink</li>
+            <li onclick="Link5()">List</li>
+            <li onclick="Link6()">Style</li>
+            <li onclick="Link7()">Image</li>
+            <li onclick="Link8()">Tabel</li>
+            <li onclick="Link9()">Video</li>
+        </ul>
+        <p class="indent">Hiasan</p>
+        <h1 style="text-align: center; padding: 0;">Selamat Datang Di Multiple Elements</h1>
+    </header>
+    <article style="padding: 0 10px 0 10px;">
+        <p>Assalamualaikum Wr Wb. Izinkan Saya Mengintroduksi diri.</p>
+        <p>Saya Radit Kelas XI RPL 1 Ingin Mengintroduksi Tag / Elemen Dasar Di HTML. Silahkan klik salah satu tombol di atas untuk memulai.</p>
+        <p>Alasan Saya membuat web seperti ini karena elemen HTML dasar terlalu banyak. jadi saya persingkat dengan 9 bab.</p>
+        <p>Untuk 9 bab tersebut, terdapat informasi umum dan contohnya. Untuk pembahasan artikel per bab sama, yaitu tentang Film Favorit Saya.</p>
+        <p class="show" onclick="Mybtn()" ondblclick="Mydblbtn()">Klik Untuk Melihat Hasil Akhir, 2x Klik Untuk Hide</p>
+    <div id="hdn">
+        <h1 style="text-align: center;">Film Favorit Saya</h1>
+            <p style="text-align: center;">Berikut adalah Film Favorit Saya : </p>
+            <h1 style="text-align: center;">Doraemon</h1>
+            <div class="poster">
+                <img src="https://image.tmdb.org/t/p/original/jbszRvlAtGGHZK4qOAREHChg2P7.jpg" width="80%" title="Petualangan Nobita Melawan Pasukan Robot Megathobia (Eiga Doraemon Shin Nobita to Tetsujin Heidan ~Habatake Tenshi Tachi~ (映画ドラえもん 新・のび太と鉄人兵団 ～はばたけ 天使たち～))"/>
+            </div>
+            <p style="text-align: center;">Poster Film Doraemon</p>
+            <p style="text-align: justify; padding: 0 10% 0 10%;" class="no-deco">Film <b>"Doraemon"</b> adalah sebuah film animasi yang didasarkan pada serial <i>manga</i> dan <i>anime</i> terkenal karya Fujiko F. Fujio. Film ini bercerita tentang robot kucing dari abad ke-22 yang bernama <b>Doraemon</b>, yang dikirim kembali ke masa lalu oleh keturunan <u>Nobita Nobi</u> untuk membantu kakek buyutnya, <b>Nobita</b> yang sering mengalami kesulitan dalam hidupnya. Dalam ceritanya, <b>Doraemon</b> memiliki kantong ajaib dimana ia bisa mengeluarkan berbagai alat canggih dari masa depan untuk membantu <b>Nobita</b> mengatasi berbagai masalah, mulai dari tugas sekolah hingga bullying oleh teman-temannya. Setiap alat yang digunakan <b>Doraemon</b> sering kali menimbulkan situasi lucu dan tak terduga. <b>Nobita</b>, meskipun sering digambarkan sebagai anak yang malas dan kurang berbakat, memiliki hati yang baik dan selalu berusaha membantu teman-temannya dengan cara terbaik yang ia bisa, meskipun sering kali berakhir dengan kekacauan. Teman-teman utama <b>Nobita</b> termasuk <u>Shizuka</u>, yang cerdas dan baik hati; <u>Gian</u>, yang kuat dan suka memerintah; dan <u>Suneo</u>, yang licik dan sering membanggakan kekayaannya. Film-film <b>Doraemon</b> biasanya menggabungkan elemen komedi, petualangan, dan nilai-nilai persahabatan serta moral yang kuat, membuatnya menjadi tontonan yang menghibur dan mendidik bagi anak-anak dan keluarga di seluruh dunia. Setiap film <b>Doraemon</b> memiliki cerita yang mandiri, meskipun ada beberapa film yang berlanjut dari satu sama lain. Film-film ini telah diterjemahkan dan didistribusikan di banyak negara, menjadikan <b>Doraemon</b> sebagai ikon budaya yang terkenal secara internasional. Untuk daftar film <b>Doraemon</b> bisa dilihat <a href="https://id.m.wikipedia.org/wiki/Daftar_film_Doraemon" title="Daftar Film Doraemon">disini</a>.</p>
+            <h1 style="text-align: center;">Sebuah Lagu Tema Film Doraemon</h1>
+            <div class="poster">
+                <video controls poster="film.jpg" width="80%">
+                    <source src="film.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="poster">
+                <table border="1" cellpadding="7" class="line" style="margin-top: 16px;">
+                    <tr>
+                        <th colspan="3">Film Favorit</th>
+                    </tr>
+                    <tr>
+                        <th>Nama Film</th>
+                        <th>Nonton Lewat</th>
+                        <th>Persentase</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Doraemon</td>
+                        <td>TV</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>Youtube</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+            <ul style="padding: 0 10% 0 10%;">
+                <li>Data Film Doraemon</li>
+                <ol>
+                    <li>Saya menonton dari tahun 2014 sampai sekarang</li>
+                    <li>Saat ini, Doraemon ditayangkan di RCTI.</li>
+                    <li>Jenis Film : Anime, Real Life</li>
+                </ol>
+                <br>
+                <li>Alasan Saya Menyukai Film <b>Doraemon</b> : </li>
+                <ol>
+                    <li><b>Alat Ajaib</b> <br>Banyak <u>Alat Ajaib</u> yang dapat membantu kehidupan Nobita / justru menyusahkannya.</li>
+                    <li><b>Masa Depan</b> <br>Doraemon Berasal Dari Abad 22, Sementara Nobita Berada Di Abad 21.</li>
+                </ol>
+            </ul>
+    </div>
+    </article>
+    <footer>
+        <p>Copyright &copy; 2024 by Radit. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

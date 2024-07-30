@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="film.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="film.js"></script>
+    <title>Film</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li onclick="Link1()">Heading</li>
+            <li onclick="Link2()">Paragraf</li>
+            <li onclick="Link3()">Format Teks</li>
+            <li onclick="Link4()">Hyperlink</li>
+            <li onclick="Link5()">List</li>
+            <li onclick="Link6()">Style</li>
+            <li onclick="Link7()">Image</li>
+            <li onclick="Link8()">Tabel</li>
+            <li class="active" onclick="Link9()">Video</li>
+        </ul>
+    </header>
+    <p class="indent">Hiasan Aja</p>
+    <h1>Video Untuk Menampilkan Video</h1>
+    <p class="show" onclick="Mybtn()" ondblclick="Mydblbtn()" title="Hide Elemen Tidak Akan Menghentikan Video">Klik Untuk Melihat Video, 2x Klik Untuk Hide</p>
+    <div id="hdn">
+        <h1 style="text-align: center;">Sebuah Lagu Tema Film Doraemon</h1>
+        <video controls poster="film.jpg" width="100%">
+            <source src="film.mp4" type="video/mp4">
+        </video>
+        <h1 style="text-align: center;">Lagu Trailer Dari Permainan "Garden (Jepang)"</h1>
+        <video controls poster="film.jpg" width="100%">
+            <source src="trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024 by Radit. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
